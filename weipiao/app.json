@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/cinema/index",
+    "pages/my/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微票",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#F2F2F2",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [{
+      "pagePath": "pages/home/index",
+      "text": "上映",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png"
+    },
+    {
+      "pagePath": "pages/cinema/index",
+      "text": "影院",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "image/icon_normal.png",
+      "selectedIconPath": "image/icon_pressed.png"
+    }
+    ]
+  }
+}
